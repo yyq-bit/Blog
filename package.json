@@ -1,0 +1,31 @@
+{
+  "name": "Blog",
+  "version": "1.0.0",
+  "description": "YYQI's Blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs --open",
+    "build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "YYQI",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-rss": "^1.0.2",
+    "inquirer": "^7.1.0",
+    "json2yaml": "^1.1.0",
+    "moment": "^2.25.3",
+    "vuepress": "1.5.2",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-baidu-tongji": "^1.0.1",
+    "vuepress-plugin-demo-block": "^0.7.2",
+    "vuepress-plugin-one-click-copy": "^1.0.2",
+    "vuepress-plugin-thirdparty-search": "^1.0.2",
+    "vuepress-plugin-zooming": "^1.1.7",
+    "vuepress-theme-vdoing": "^1.6.4",
+    "yamljs": "^0.3.0"
+  },
+  "dependencies": {
+    "vuepress-plugin-comment": "^0.7.3"
+  }
+}
